@@ -56,7 +56,7 @@ function page5Animation() {
     scrollTrigger: {
       trigger: "#page-5",
       scroller: "#main",
-      markers: true,
+      // markers: true,
       start: "top 10%",
       end: "top -200%",
       scrub: 2,
