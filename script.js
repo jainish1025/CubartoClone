@@ -64,8 +64,8 @@ function page5Animation() {
     },
   });
 
-  t2.to("#page-5-header>#page-5-contend-1", {
-    transform: "translateX(50%)",
+  t2.to(".head", {
+    transform: "translateX(-100%)",
   });
 
 }

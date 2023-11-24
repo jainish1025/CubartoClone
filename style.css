@@ -317,17 +317,18 @@ a {
   width: 155%;
   height: 60vh;
   overflow: hidden;
+  margin-left: 30px;
   /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-  animation: right-to-left 20s linear infinite ;
+  animation: right 20s linear infinite ;
 }
 
-@keyframes right-to-left {
+@keyframes right {
   0% {
-    transform: translateX(0);
+    transform: translatex(-50vw);
   }
-
+  
   100% {
-    transform: translatex(-100vw);
+    transform: translateX(0);
   }
 }
 
